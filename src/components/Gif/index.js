@@ -1,5 +1,5 @@
 import React from 'react'
-import './Gif.css'
+import 'components/gif/style.css'
 
 
 

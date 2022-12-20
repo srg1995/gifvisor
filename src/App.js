@@ -1,8 +1,7 @@
 import React from 'react';
-import ListOfGifs from './components/ListOfGifs'
 
-import Home from './pages/Home/index'
-import SearchResults from './pages/SearchResults/index'
+import Home from 'pages/home/index'
+import SearchResults from 'pages/searchResults/index'
 
 import {Route} from 'wouter'
 

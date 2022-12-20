@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Link, useLocation} from 'wouter'
-import ListOfGif from "../../components/ListOfGifs";
-import { useGift } from "../../hooks/useGifs";
+import ListOfGif from "components/listOfGifs";
+import { useGift } from "hooks/useGifs";
 import './style.css'
 
 const POPULAR_GIFS = ['perro', 'gato', 'pez' ,'loro']
@@ -23,7 +23,7 @@ export default function Home(){
     return (
         <div className="home">
             <div>
-                <h3>APP de animales</h3>
+                <h3>GIFVISOR</h3>
                 <form onSubmit={handleSubmit}>
                     <input onChange={handleChange} id="name" type="text" placeholder='Introduce busqueda' value={keyword}/>
                 </form>
